@@ -54,6 +54,22 @@
 		.user input{
 			margin-left: 30px;
 		}
+		.btn-lg{
+			margin-top: 30px;
+			/*float: r*/
+		}
+		.all-questions{
+			list-style: none; float: left;
+		}
+		.all-questions li{
+			display: inline;
+		}
+		.all-questions li,a{
+			margin-left: 10px;
+		}
+		.text-create{
+			color: white;
+		}
 		
 	</style>
 </head>
