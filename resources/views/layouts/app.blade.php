@@ -26,6 +26,34 @@
 		.proses li{
 			display: inline;
 		}
+		.jumbotron img{
+			margin-top: 10px;
+			margin-left: 40px;
+		}
+		.sini{
+			font-style: italic;
+			font-weight: bold;
+			color: red;
+		}
+		.title{
+			font-style: italic;
+		}
+		.proses2{
+			list-style: none; float: left;
+		}
+		.proses2 li{
+			display: inline;
+			margin-left: 5px;
+			font-size: 15px;
+		}
+		.user li{
+			display: inline;
+			margin-left: 5px;
+			font-size: 15px;
+		}
+		.user input{
+			margin-left: 30px;
+		}
 		
 	</style>
 </head>
@@ -52,6 +80,8 @@
 
 
 @yield('content')
-	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ url('js/bootstrap.min.js') }}"></script>
 </body>
 </html>
